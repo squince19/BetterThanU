@@ -60,3 +60,10 @@ body {
 	clear: both;
 	display: block;
 }
+
+.stdBox {
+	padding: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+}
