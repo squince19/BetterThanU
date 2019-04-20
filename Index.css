@@ -61,9 +61,37 @@ body {
 	display: block;
 }
 
+/* Standard Class Styling - Please alphabetize */
+
+.brandButton {
+	height: 15%;
+	width: 20%;
+	padding: 1.5%;
+	margin: 2.5%;
+}
+
+.brandImage {
+	height: 100%;
+	width: 100%;
+}
+
+.colorButton {
+	height: 15%;
+	width: 15%;
+	padding: 1.5%;
+	margin: 2.5%
+}
+
+.minBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
 .stdBox {
 	padding: 5px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: gray;
 }
+

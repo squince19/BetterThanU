@@ -16,20 +16,135 @@
 			<h1>Style Quiz</h1>
 
 			<form id="QuizForm">
+
 				<h4>Gender</h4>
-				<div class="stdBox">
+				<div id="GenderSelect" class="stdBox">
 					<input type="radio" name="gender" value="Male" checked> Male<br>
 					<input type="radio" name="gender" value="Female"> Female<br>
 					<input type="radio" name="gender" value="Other"> Other<br>
 				</div>
+				<br>
+
 				<h4>Height</h4>
-				<div class="stdBox">
+				<div id="HeightSelect" class="stdBox">
 					<input type="text" name="feet" placeholder="Feet"> <br>
 					<input type="text" name="inch" placeholder="Inches">
 				</div>
+				<br>
 
+				<h4>Weight</h4>
+				<div id="WeightSelect" class="stdBox">
+					<input type="text" name="weight" placeholder="Lbs."> <br>
+				</div>
+				<br>
+
+				<h4>Body Type</h4>
+				<div id="BodySelect" class="stdBox">
+					<input type="radio" name="bodytype" value="Slim" checked> Slim<br>
+					<input type="radio" name="bodytype" value="Average"> Average<br>
+					<input type="radio" name="bodytype" value="Athletic"> Athletic<br>
+					<input type="radio" name="bodytype" value="Thick"> Thick<br>
+				</div>
+				<br>
+
+				<h4>Which do you prefer?</h4>
+				<div id="ComfySelect" class="stdBox">
+					<input type="radio" name="style-comfort" value="Style" checked> Style<br>
+					<input type="radio" name="style-comfort" value="Comfort"> Comfort<br>
+				</div>
+				<br>
+
+				<h4>Which Festival/EDM brands do you like?</h4>
+				<div id="BrandSelect" class="stdBox">
+					<button id="Brand-01" class="brandButton" type="button">
+						<img class="brandImage" src="./HausImg.png">
+					</button>
+					<button id="Brand-02" class="brandButton" type="button">Placeholder 2</button>
+					<button id="Brand-03" class="brandButton" type="button">Placeholder 3</button>
+					<button id="Brand-04" class="brandButton" type="button">Placeholder 4</button>
+					<button id="Brand-05" class="brandButton" type="button">Placeholder 5</button>
+					<button id="Brand-06" class="brandButton" type="button">Placeholder 6</button>
+					<button id="Brand-07" class="brandButton" type="button">Placeholder 7</button>
+					<button id="Brand-08" class="brandButton" type="button">Placeholder 8</button>
+					<button id="Brand-09" class="brandButton" type="button">Placeholder 9</button>
+					<button id="Brand-10" class="brandButton" type="button">Placeholder 10</button>
+				</div>
+				<br>
+
+				<h4>How often do you attend music festivals?</h4>
+				<div id="FreqSelect" class="stdBox">
+					<input type="radio" name="attendfreq" value="ReallyFreq" checked> More than once per month<br>
+					<input type="radio" name="attendfreq" value="MajorFreq"> 6-12 times per year<br>
+					<input type="radio" name="attendfreq" value="SomewhatFreq"> 1-6 times per year<br>
+					<input type="radio" name="attendfreq" value="NotAFreq"> Rarely or never<br>
+				</div>
+				<br>
+
+				<h4>Which colors would you wear?</h4>
+				<div id="ColorSelect" class="stdBox">
+					<button id="Color-01" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: black;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: blue;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: brown;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: green;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: gray;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: khaki;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: lightskyblue;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: navy;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: olive;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: pink;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: purple;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: red;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: salmon;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: white;"></div>
+					</button>
+					<button id="Color-02" class="colorButton" type="button">
+						<div class="minBox, brandImage" style="background-color: yellow;"></div>
+					</button>
+				</div>
+
+				<h4>How adventurous should your styles be?</h4>
+				<div id="AdventSelect" class="stdBox">
+					<input type="radio" name="adventurous" value="Extreme" checked> Extreme<br>
+					<input type="radio" name="adventurous" value="Moderate"> Moderate<br>
+					<input type="radio" name="adventurous" value="Conservative"> Conservative<br>
+				</div>
+				<br>
 				
-					
+				<h4>Matt Phelps is awesome</h4>
+				<div id="ComfySelect" class="stdBox">
+					<input type="radio" name="MattPhelps" value="Yes1" checked> Yes, totally<br>
+					<input type="radio" name="MattPhelps" value="Yes2"> I completely agree<br>
+				</div>
+				<br>
+
+				<button class="brandButton" type="submit" action="#">Submit</button>
 
 			</form>
 
