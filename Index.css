@@ -88,6 +88,10 @@ body {
 	border-color: black;
 }
 
+.spacer {
+	background-color: white;
+}
+
 .stdBox {
 	padding: 5px;
 	border-style: solid;
@@ -95,3 +99,6 @@ body {
 	border-color: gray;
 }
 
+.textHeader {
+	text-align: center;
+}
