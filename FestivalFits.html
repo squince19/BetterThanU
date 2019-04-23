@@ -7,10 +7,46 @@
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 
 	</head>
-	<body onload="showHomeTab()">
+	<body onload="showTab(event, 'HomePage')">
+
 		<div id="HomePage" class="tabbedPage">
 			
+			<div class="row">
+				<div class="col-lg-01">
+				</div>
+				<div class="col-lg-04">
+					<h1 class="h1text">Festival Fits</h1>
+				</div>
+				<div class="col-lg-07">
+				</div>
+			</div>
+
+			<div class="row row-400">
+				<div class="col-lg-01 spacer">
+
+				</div>
+
+				<div class="col-lg-04 ht-250 minBox">
+					<img src="./pic/pic-cl-2.jpg">
+				</div>
+				<div class="col-lg-02 ht-250 minBox">
+					<img src="./pic/pic-ct-1.jpg">
+				</div>
+				<div class="col-lg-04 ht-250 minBox">
+					<img src="./pic/pic-cl-1.jpg">
+				</div>
+
+				<div class="col-lg-01 spacer">
+				</div>
+			</div>
+
+			<div class="row row-200">
+				<button onclick="showTab(event,'SurveyPage')">Get Started!</button>
+			</div>
+
 		</div>
+
+
 		<div id="SurveyPage" class="tabbedPage">
 			
 			<h1>Festival Fits Style Quiz</h1>

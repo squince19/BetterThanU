@@ -1,29 +1,22 @@
 "use strict";
 
+	function showTab(event, pageName) {
+		var i = 0; 
+		var tabElements, tabLinkElements;
 
-	const homePage = "SurveyPage";
-
-		function showHomeTab() {
-			var startPage = document.getElementById(homePage);
-			showTab(event, startPage)
+		tabElements = document.getElementsByClassName("tabbedPage");
+		for (i = 0; i < tabElements.length; i++) {
+		    tabElements[i].style.display = "none";
 		}
 
-		function showTab(event, pageName) {
-		    var i = 0; 
-		    var tabElements, tabLinkElements;
+		/* This code is only used for activating navigation links */
 
-		    tabElements = document.getElementsByClassName("tabbedPage");
-		    for (i = 0; i < tabElements.length; i++) {
-		        tabElements[i].style.display = "none";
-		    }
+		/* tabLinkElements = document.getElementsByClassName("tabLink");
+		for (i = 0; i < tabLinkElements.length; i++) {
+		    tabLinkElements[i].className = 
+		  	tabLinkElements[i].className.replace(" active", ""); 
+		} */
 
-		    /* This code is only used for navigation links */
-		    /* tabLinkElements = document.getElementsByClassName("tabLink");
-		    for (i = 0; i < tabLinkElements.length; i++) {
-		        tabLinkElements[i].className = 
-		        	tabLinkElements[i].className.replace(" active", ""); 
-		    } */
-
-		    document.getElementById(pageName).style.display = "block";
-		    event.currentTarget.className += " active";
-		}		
+		document.getElementById(pageName).style.display = "block";
+		event.currentTarget.className += " active";
+	}		

@@ -6,6 +6,11 @@ body {
 	font-family: verdana, helvetica, arial, sans-serif;
 }
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 /* SMALL: phones unless media role below fires */
 @media only screen and (max-width: 499px) {
 	.col-sm-00 {display: none;}
@@ -61,6 +66,13 @@ body {
 	display: block;
 }
 
+.ht-500 {height: 500px;}
+.ht-400 {height: 400px}
+.ht-300 {height: 300px}
+.ht-250 {height: 250px}
+.ht-200 {height: 200px}
+.ht-100 {height: 100px}
+
 /* Standard Class Styling - Please alphabetize */
 
 .brandButton {
@@ -82,10 +94,17 @@ body {
 	margin: 2.5%
 }
 
+.h1text {
+	font-family: helvetica;
+	text-align: left;
+	font-size: 200%;
+}
+
 .minBox {
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
+	text-align: center;
 }
 
 .spacer {
@@ -102,3 +121,5 @@ body {
 .textHeader {
 	text-align: center;
 }
+
+
