@@ -81,6 +81,20 @@ img {
 	padding: 1.5%;
 	margin: 2.5%;
 }
+.buttonDiv{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 3% 17%;
+  text-align: center;
+  font-size: 20%;
+  cursor: pointer;
+  
+}
+.buttonDiv:hover {
+  background-color: green;
+}
+
 
 .colorButton {
 	height: 15%;
@@ -88,11 +102,28 @@ img {
 	padding: 1.5%;
 	margin: 2.5%
 }
+.outfitPictureHolder{
+	   width: 50%;
+	   height: 25%;
+	   margin-left: auto;
+	   margin-right: auto;
+}
+
+.outfitPictureHolder img{
+	   width: 100%;
+	   height: auto;
+}
 
 .h1text {
 	font-family: helvetica;
 	text-align: left;
 	font-size: 200%;
+}
+.footer{
+	   width: 50%;
+	   height: 25%;
+	   margin-left: auto;
+	   margin-right: auto;
 }
 
 .img-wd-hm {
