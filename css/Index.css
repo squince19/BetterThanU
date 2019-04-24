@@ -82,11 +82,6 @@ img {
 	margin: 2.5%;
 }
 
-.brandImage {
-	height: 100%;
-	width: 100%;
-}
-
 .colorButton {
 	height: 15%;
 	width: 15%;
@@ -98,6 +93,16 @@ img {
 	font-family: helvetica;
 	text-align: left;
 	font-size: 200%;
+}
+
+.img-wd-hm {
+	height: 684;
+	width: 1028;
+}
+
+.img-tl-hm {
+	height: 684;
+	width: 428;
 }
 
 .minBox {
