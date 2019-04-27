@@ -34,6 +34,8 @@ img {
 	.col-md-10 {width: 83.33%;}
 	.col-md-11 {width: 91.66%;}
 	.col-md-12 {width: 100.00%;}
+
+	.col-md-450-Fixed {width: 450px;}
 }
 
 /* LARGE: desktop screens or portrait tablets */
@@ -52,6 +54,9 @@ img {
 	.col-lg-10 {width: 83.33%;}
 	.col-lg-11 {width: 91.66%;}
 	.col-lg-12 {width: 100.00%;}
+
+	.col-lg-450-Fixed {width: 450px;}
+	.col-lg-650-Fixed {width: 650px;}
 }
 
 [class*="col-"] {
@@ -72,15 +77,19 @@ img {
 .ht-250 {height: 250px;}
 .ht-200 {height: 200px;}
 .ht-100 {height: 100px;}
+.ht-085 {height: 085px;}
+.ht-050 {height: 050px;}
 .ht-010 {height: 010px;}
+
+.wd-085 {width: 085px;}
+.wd-050 {width: 050px;}
 
 /* Standard Class Styling - Please alphabetize */
 
 .brandButton {
-	height: 15%;
-	width: 20%;
-	padding: 1.5%;
-	margin: 2.5%;
+	height: 85px;
+	width: 85px;
+	margin: 2px;
 }
 .buttonDiv{
   background-color: black;
@@ -97,10 +106,9 @@ img {
 }
 
 .colorButton {
-	height: 15%;
-	width: 15%;
-	padding: 1.5%;
-	margin: 2.5%
+	height: 100px;
+	width: 100px;
+	margin: 2px;
 }
 
 .footer{
@@ -164,3 +172,11 @@ img {
 	text-align: left;
 }
 
+tog {
+  background: #ccc;
+  cursor: pointer;
+}
+
+tog.down {
+  background: #bbb;
+}

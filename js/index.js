@@ -19,4 +19,10 @@
 
 		document.getElementById(pageName).style.display = "block";
 		event.currentTarget.className += " active";
-	}		
+	}	
+
+	$(document).ready(function() {
+  		$('tog#button').click(function() {
+    		$(this).toggleClass("down");
+  		});
+	});	
