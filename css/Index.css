@@ -67,11 +67,12 @@ img {
 }
 
 .ht-500 {height: 500px;}
-.ht-400 {height: 400px}
-.ht-300 {height: 300px}
-.ht-250 {height: 250px}
-.ht-200 {height: 200px}
-.ht-100 {height: 100px}
+.ht-400 {height: 400px;}
+.ht-300 {height: 300px;}
+.ht-250 {height: 250px;}
+.ht-200 {height: 200px;}
+.ht-100 {height: 100px;}
+.ht-010 {height: 010px;}
 
 /* Standard Class Styling - Please alphabetize */
 
@@ -133,15 +134,15 @@ img {
 }
 
 .outfitPictureHolder{
-	   width: 50%;
-	   height: 25%;
-	   margin-left: auto;
-	   margin-right: auto;
+	width: 50%;
+	height: 25%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .outfitPictureHolder img{
-	   width: 100%;
-	   height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .spacer {
