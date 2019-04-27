@@ -95,35 +95,24 @@ img {
   background-color: green;
 }
 
-
 .colorButton {
 	height: 15%;
 	width: 15%;
 	padding: 1.5%;
 	margin: 2.5%
 }
-.outfitPictureHolder{
+
+.footer{
 	   width: 50%;
 	   height: 25%;
 	   margin-left: auto;
 	   margin-right: auto;
-}
-
-.outfitPictureHolder img{
-	   width: 100%;
-	   height: auto;
 }
 
 .h1text {
 	font-family: helvetica;
 	text-align: left;
 	font-size: 200%;
-}
-.footer{
-	   width: 50%;
-	   height: 25%;
-	   margin-left: auto;
-	   margin-right: auto;
 }
 
 .img-wd-hm {
@@ -143,6 +132,18 @@ img {
 	text-align: center;
 }
 
+.outfitPictureHolder{
+	   width: 50%;
+	   height: 25%;
+	   margin-left: auto;
+	   margin-right: auto;
+}
+
+.outfitPictureHolder img{
+	   width: 100%;
+	   height: auto;
+}
+
 .spacer {
 	background-color: white;
 }
@@ -154,8 +155,11 @@ img {
 	border-color: gray;
 }
 
-.textHeader {
-	text-align: center;
+.stdInput {
+	width: 100%;
 }
 
+.textHeader {
+	text-align: left;
+}
 

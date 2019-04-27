@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 
 	</head>
-	<body onload="showTab(event, 'HomePage')">
+	<body onload="showTab(event, 'SurveyPage')">
 
 		<div id="HomePage" class="tabbedPage">
 			
@@ -51,53 +51,68 @@
 
 
 		<div id="SurveyPage" class="tabbedPage">
-			
-			<h1>Festival Fits Style Quiz</h1>
+
+
+			<div class="row">
+				<div class="col-lg-01 spacer">
+				</div>
+				<div class="col-lg-04">
+					<h1>Style Profile</h1>
+				</div>
+				<div class="col-lg-07 spacer">
+				</div>
+			</div>
+
 
 			<form id="QuizForm">
 
+
+				<!-- Question #1: What is your gender? -->
 				<div class="row">
-					<div class="col-lg-02 spacer">
+					<div class="col-lg-01 spacer">
 					</div>
-					<div class="col-lg-08">
-						<h3 class="textHeader">Gender</h3>
+					<div class="col-lg-04">
+						<div class="textHeader"><strong>What is your <em>GENDER?</em></strong></div>
 					</div>
-					<div class="col-lg-02 spacer">
+					<div class="col-lg-07 spacer">
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-04 spacer">
+					<div class="col-lg-01 spacer">
 					</div>
 					<div id="GenderSelect" class="col-lg-04 stdBox">
 						<input type="radio" name="gender" value="Male" checked> Male<br>
 						<input type="radio" name="gender" value="Female"> Female<br>
 						<input type="radio" name="gender" value="Other"> Other<br>
 					</div>
-					<div class="col-lg-04 spacer">
+					<div class="col-lg-07 spacer">
 					</div>
 				</div>
 				<br>
 
+
+				<!-- Question #2: What is your height? -->
 				<div class="row">
-					<div class="col-lg-02 spacer">
+					<div class="col-lg-01 spacer">
 					</div>
-					<div class="col-lg-08">
-						<h3 class="textHeader">Height</h3>
+					<div class="col-lg-04">
+						<div class="textHeader"><strong>What is your <em>HEIGHT?</em></strong></div>
 					</div>
-					<div class="col-lg-02 spacer">
+					<div class="col-lg-07 spacer">
 					</div>
 				</div>
 				<div class = "row">
-					<div class="col-lg-04 spacer">
+					<div class="col-lg-01 spacer">
 					</div>
 					<div id="HeightSelect" class="col-lg-04 stdBox">
-						<input type="text" name="feet" placeholder="Feet"> <br>
-						<input type="text" name="inch" placeholder="Inches">
+						<input class="stdInput" type="text" name="feet" placeholder="Feet"> <br>
+						<input class="stdInput" type="text" name="inch" placeholder="Inches">
 					</div>
-					<div class="col-lg-04 spacer">
+					<div class="col-lg-07 spacer">
 					</div>
 				</div>
 				<br>
+
 
 				<div class="row">
 					<div class="col-lg-02 spacer">
