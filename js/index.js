@@ -22,7 +22,7 @@
 	}	
 
 	$(document).ready(function() {
-  		$('tog#button').click(function() {
+  		$('a.btn-color').click(function() {
     		$(this).toggleClass("down");
   		});
 	});	

@@ -4,6 +4,7 @@
 
 body {
 	font-family: verdana, helvetica, arial, sans-serif;
+	background-color: #F1F1F1;
 }
 
 img {
@@ -14,7 +15,9 @@ img {
 /* SMALL: phones unless media role below fires */
 @media only screen and (max-width: 499px) {
 	.col-sm-00 {display: none;}
-	.col-sm-12 {width: 100.00%}
+	.col-sm-12 {width: 100.00%;}
+
+	.rel-sm-04 {width: 100.00%;}
 
 	.menu p {display: inline;}
 }
@@ -36,6 +39,11 @@ img {
 	.col-md-12 {width: 100.00%;}
 
 	.col-md-450-Fixed {width: 450px;}
+
+	.rel-md-04 {width: 100.00%;}
+	.rel-md-03 {width: 75.00%;}
+	.rel-md-02 {width: 50.00%;}
+	.rel-md-01 {width: 25.00%;}
 }
 
 /* LARGE: desktop screens or portrait tablets */
@@ -57,6 +65,12 @@ img {
 
 	.col-lg-450-Fixed {width: 450px;}
 	.col-lg-650-Fixed {width: 650px;}
+	.col-lg-900-Fixed {width: 900px;}
+
+	.rel-lg-04 {width: 100.00%;}
+	.rel-lg-03 {width: 75.00%;}
+	.rel-lg-02 {width: 50.00%;}
+	.rel-lg-01 {width: 25.00%;}
 }
 
 [class*="col-"] {
@@ -77,20 +91,45 @@ img {
 .ht-250 {height: 250px;}
 .ht-200 {height: 200px;}
 .ht-100 {height: 100px;}
-.ht-085 {height: 085px;}
+.ht-095 {height: 095px;}
+.ht-080 {height: 080px;}
+.ht-078 {height: 078px;}
+.ht-073 {height: 073px;}
 .ht-050 {height: 050px;}
 .ht-010 {height: 010px;}
 
-.wd-085 {width: 085px;}
+.wd-100 {width: 100px;}
+.wd-095 {width: 095px;}
+.wd-078 {width: 078px;}
+.wd-073 {width: 073px;}
+.wd-080 {width: 080px;}
 .wd-050 {width: 050px;}
+
+/* Button Toggle Class */
+
+a.down {
+  background: #bbb;
+  border-top: solid 1px #777;
+  border-left: solid 1px #777;
+  border-bottom: solid 1px #eaeaea;
+  border-right: solid 1px #eaeaea;
+}
 
 /* Standard Class Styling - Please alphabetize */
 
-.brandButton {
-	height: 85px;
-	width: 85px;
-	margin: 2px;
+.altBox {
+	padding: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
 }
+
+.btn-color {
+	background-color: #FFF;
+	float: left;
+	margin: 5px;
+}
+
 .buttonDiv{
   background-color: black;
   border: none;
@@ -101,14 +140,9 @@ img {
   cursor: pointer;
   
 }
+
 .buttonDiv:hover {
   background-color: green;
-}
-
-.colorButton {
-	height: 100px;
-	width: 100px;
-	margin: 2px;
 }
 
 .footer{
@@ -134,6 +168,14 @@ img {
 	width: 428;
 }
 
+.ltBox {
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	text-align: center;
+	padding: 10px;
+}
+
 .minBox {
 	border-style: solid;
 	border-width: 1px;
@@ -154,7 +196,7 @@ img {
 }
 
 .spacer {
-	background-color: white;
+	background-color: #F1F1F1;
 }
 
 .stdBox {
@@ -164,19 +206,6 @@ img {
 	border-color: gray;
 }
 
-.stdInput {
-	width: 100%;
-}
-
 .textHeader {
 	text-align: left;
-}
-
-tog {
-  background: #ccc;
-  cursor: pointer;
-}
-
-tog.down {
-  background: #bbb;
 }
