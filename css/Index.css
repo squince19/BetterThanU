@@ -65,7 +65,7 @@ img {
 
 	.col-lg-450-Fixed {width: 450px;}
 	.col-lg-650-Fixed {width: 650px;}
-	.col-lg-900-Fixed {width: 900px;}
+	.col-lg-892-Fixed {width: 892px;}
 
 	.rel-lg-04 {width: 100.00%;}
 	.rel-lg-03 {width: 75.00%;}
@@ -98,6 +98,7 @@ img {
 .ht-050 {height: 050px;}
 .ht-010 {height: 010px;}
 
+.wd-200 {width: 200px;}
 .wd-100 {width: 100px;}
 .wd-095 {width: 095px;}
 .wd-078 {width: 078px;}
@@ -118,7 +119,7 @@ a.down {
 /* Standard Class Styling - Please alphabetize */
 
 .altBox {
-	padding: 4px;
+	padding: 3px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: gray;
