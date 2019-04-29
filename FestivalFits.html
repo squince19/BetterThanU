@@ -62,8 +62,8 @@
 
 				<div>
 					<br>
-					<button onclick="showTab(event,'SurveyPage')">Log In</button>
-					<button onclick="showTab(event,'RegisterPage')">Sign Up!</button>
+					<a onclick="showTab(event,'SurveyPage')">Log In</a>
+					<a onclick="showTab(event,'RegisterPage')">Sign Up!</a>
 				</div>
 				<!-- <br>
 				<input type="submit" name="subBut" value="Login">
@@ -93,7 +93,7 @@
 				</div>
 				<br>
 				<div class="regRow">		
-					<button onclick="showTab(event,'SurveyPage')">Get Started!</button>
+					<a onclick="showTab(event,'SurveyPage')">Get Started!</a>
 				</div>
 			</form>
 			
@@ -409,8 +409,10 @@
 				<div class="row">
 					<div class="col-lg-01 col-md-01 col-sm-00 spacer">
 					</div>
-					<div class="col-lg-450-Fixed col-md-450-Fixed col-sm-12">
-						<button id="surveySubmit" class="ht-050 wd-200" type="submit" action="#">Get My Fits!</button>
+					<div class="regRow col-lg-450-Fixed col-md-450-Fixed col-sm-12">	
+						<div class="ht-010"></div>
+						<a id="surveySubmit" onclick="showTab(event,'outfitPickerPage')">Get Outfits!</a>
+						<div class="ht-010"></div>
 					</div>
 					<div class="col-lg-02 col-md-01 col-sm-00 spacer">
 					</div>
