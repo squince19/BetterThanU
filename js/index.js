@@ -1,5 +1,7 @@
 "use strict";
 
+//DANI IF YOU SEE THIS IT WORKED
+
 var gender, height, weight, bodyType, cPref, frequency, advtrs;
 	var edmBrands = [];
 	var colors = [];
