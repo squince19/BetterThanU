@@ -4,18 +4,14 @@
 // YO YO YO SAM
 
 var gender, height, weight, bodyType, cPref, frequency, advtrs;
-	var edmBrands = [];
-	var colors = [];
+var edmBrands = [];
+var colors = [];
 
-	function storeInfo() {
-
+/*	function storeInfo() {
 		gender = document.querySelector('input[name="gender"]:checked').value;
 		bodyType = document.querySelector('input[name="bodytype"]:checked').value;
 		cPref = document.querySelector('input[name="style-comfort"]:checked').value;
-
-
-	}	
-
+	}	*/
 
 	function showTab(event, pageName) {
 		var i = 0; 
@@ -35,7 +31,7 @@ var gender, height, weight, bodyType, cPref, frequency, advtrs;
 		} */
 
 		document.getElementById(pageName).style.display = "block";
-		event.currentTarget.className += " active";
+		event.currentTarget.className += "active";
 	}	
 
 	$(document).ready(function() {
