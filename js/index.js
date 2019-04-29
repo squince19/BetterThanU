@@ -1,5 +1,19 @@
 "use strict";
 
+var gender, height, weight, bodyType, cPref, frequency, advtrs;
+	var edmBrands = [];
+	var colors = [];
+
+	function storeInfo() {
+
+		gender = document.querySelector('input[name="gender"]:checked').value;
+		bodyType = document.querySelector('input[name="bodytype"]:checked').value;
+		cPref = document.querySelector('input[name="style-comfort"]:checked').value;
+
+
+	}	
+
+
 	function showTab(event, pageName) {
 		var i = 0; 
 		var tabElements, tabLinkElements;
@@ -26,3 +40,4 @@
     		$(this).toggleClass("down");
   		});
 	});	
+
