@@ -11,6 +11,18 @@ var colors = [];
 		gender = document.querySelector('input[name="gender"]:checked').value;
 		bodyType = document.querySelector('input[name="bodytype"]:checked').value;
 		cPref = document.querySelector('input[name="style-comfort"]:checked').value;
+		advtrs = document.querySelector	('input[name="adventurous"]:checked').value;
+		var colorobjects = document.getElementsByClassName	("down");
+		for (i = 0; i < colorobjects.length; i++) {
+			var temp = colorobjects[i].name;
+			colors.push(temp);
+		}
+		console.log(gender);
+		console.log(bodyType);
+		console.log(cPref);
+		console.log(advtrs);
+		console.log(colors);
+
 	}	
 
 	function showTab(event, pageName) {
@@ -29,7 +41,6 @@ var colors = [];
 		    tabLinkElements[i].className = 
 		  	tabLinkElements[i].className.replace(" active", ""); 
 		} */
-
 		document.getElementById(pageName).style.display = "block";
 		event.currentTarget.className += " active";
 	}	
