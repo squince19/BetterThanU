@@ -4,10 +4,12 @@
 // YO YO YO SAM
 
 var gender, height, weight, bodyType, cPref, frequency, advtrs;
-var edmBrands = [];
+//var edmBrands = [];
 var colors = [];
 
 	function storeInfo() {
+		
+		//this whill store info from the survey in variables which can be used for search criteria
 		gender = document.querySelector('input[name="gender"]:checked').value;
 		bodyType = document.querySelector('input[name="bodytype"]:checked').value;
 		cPref = document.querySelector('input[name="style-comfort"]:checked').value;
@@ -51,4 +53,11 @@ var colors = [];
     		$(this).toggleClass("down");
   		});
 	});	
+
+
+	function cycleImages() {
+		//function in progress (SQ)
+		//var img1 = "<img src="./pic/fit1.jpg" border="5">"
+
+	}
 
