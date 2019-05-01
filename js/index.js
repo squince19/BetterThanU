@@ -7,6 +7,18 @@ var gender, height, weight, bodyType, cPref, frequency, advtrs;
 //var edmBrands = [];
 var colors = [];
 
+	function verifyLogIn(){
+		var user = document.getElementById('usernameInput').value;
+		var pass = document.getElementById('passwordInput').value;
+		if(user == "sam19" && pass == "blue")
+		{
+			showTab(event,'SurveyPage');
+		} 
+		else
+			{ alert("Wrong credentials entered! try again.") }
+ 
+	}
+
 	function storeInfo() {
 		
 		//this whill store info from the survey in variables which can be used for search criteria
@@ -54,10 +66,21 @@ var colors = [];
   		});
 	});	
 
-
+	var counter = 0;
+	var img2 = "<img src=\"./pic/outfits/JoJoElec-02.jpg\" border=\"5\">";
+	var img3 = "<img src=\"./pic/outfits/JoJoElec-03.jpg\" border=\"5\">";
+	var img4 = "<img src=\"./pic/outfits/JoJoElec-04.jpg\" border=\"5\">";
+	var img5 = "<img src=\"./pic/outfits/JoJoElec-05.jpg\" border=\"5\">"; 
+	var rotation = [img2, img3, img4, img5];
+		
 	function cycleImages() {
-		//function in progress (SQ)
-		//var img1 = "<img src="./pic/fit1.jpg" border="5">"
+		//fuinction in progress (SQ)
+		if(counter > 3)
+		{
+			showTab(event, 'accountHome');
+		}
+		document.getElementById('imagePick').innerHTML = rotation[counter];
+		counter++;
 
 	}
 
