@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 
 	</head>
-	<body onload="showTab(event,'LogInPage')">
+	<body onload="showTab(event,'accountHome')">
 
 
 		<div id="LogInPage" class="tabbedPage"> <!--
@@ -445,34 +445,71 @@
 
 		</div>
 <div id="accountHome" class="tabbedPage" >
-
-	<div class="col-lg-03 col-med-02 col-sm-00 spacer"></div>
-	<div class="col-lg-06 col-med-08 col-sm-12"><h2>Account Home</h2></div>
-	<div class="col-lg-03 col-med-02 col-sm-00 spacer"></div>
-		
-	<br>
-	<br>
-
-	<div class="row">
-		<div class="col-lg-04 col-med-02 col-sm-00 spacer" ></div>
-		<div class="col-lg-04 col-med-08 col-sm-12">
-			<h3>John Johnson</h3>
-		</div>
-		<div class="col-lg-04 col-med-02 col-sm-00 spacer"></div>
-	</div>
-	<br>
-	<br>
-	<div>
-
-		<div><h3>Personal Information</h3></div>
-				<input type="text" name="Age" value="Age" readonly="true" >
-		<br>
-				<input type="text" name="Gender" value="Gender" readonly="true" >
-			<div><input type="text" name="Email" value="Email" readonly="true"></div>
-	</div>
-
+  	<div class="row">
+			<div class="row">
+				<div class="col-lg-05 col-md-03 col-sm-01 spacer">
+				</div>
+				<div class="col-lg-02 col-md-06 col-sm-10">
+					<h1>Account Profile</h1>
+				</div>
+				<div class="col-lg-05 col-md-03 col-sm-01 spacer">
+				</div>
+			</div>
+    </div>
 	
-	<div class="row"><h3>Favorite Brands</h3></div>
+	<div >
+		<div class="col-lg-01 col-md-00 col-sm-00 spacer">
+				</div>
+		<div class="col-lg-02 col-md-04 col-sm-12 spacer">
+			<h2 class="center">Arya Stark</h2>
+		</div>
+		<div class="col-lg-09 col-md-03 col-sm-00 spacer">
+				</div>
+		
+	</div>
+		
+				<div class="row">
+					<div class="col-lg-01 col-md-01 col-sm-00 spacer">
+					</div>
+					<div class="col-lg-09 col-md-04 col-sm-12">
+						
+					</div>
+					<div class="col-lg-02 col-md-01 col-sm-00 spacer">
+					</div>
+				</div>
+				<div class = "row">
+					<div class="col-lg-01 col-md-01 col-sm-00 spacer">
+					</div>
+					<div id="personalInfo" class="col-lg-892-Fixed col-md-450-Fixed col-sm-12 stdBox">
+						<div class="ht-010"></div>
+						Age:    <input class="rel-lg-01 rel-md-02 rel-sm-04" type="text" name="age" value="21" readonly="true"> <br>
+						Gender: <input class="rel-lg-01 rel-md-02 rel-sm-04" type="text" name="gender" value="Female" readonly="true"> <br>
+						Email: <input class="rel-lg-01 rel-md-02 rel-sm-04" type="text" name="email" value="ManyFacedGod@Gmail.com" readonly="true">
+						<div class="ht-010"></div>
+					</div>
+					<div class="col-lg-06 col-md-03 col-sm-00 spacer">
+					</div>
+				</div>
+
+<div>
+	<h3 class="center">Favorite Brands</h3>
+	<div id="favoriteBrands" >
+
+  		<div>
+    		<img class="ht-100 wd-078" title="Bassdrop" src="./pic/LOGO-Bassdrop.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+ 	 	</div>
+  		<div >
+   			 <img class="ht-100 wd-078" title="CLVB LIFE" src="./pic/LOGO-ClvbLife.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+  		</div>
+  		<div >
+    		<img class="ht-100 wd-078"title="Neffmau5" src="./pic/LOGO-Neffmau5.jpg" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+  		</div>
+	</div>
+</div>
+	
+	
+	
+	
 </div>   
 		<link rel="stylesheet" type="text/css" href="./css/Index.css">
 		<!-- <script type="text/javascript" src="cordova.js"></script> -->

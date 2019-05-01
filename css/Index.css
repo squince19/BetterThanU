@@ -286,3 +286,18 @@ a.down {
 .textHeader {
 	text-align: left;
 }
+
+#personalInfo {
+	
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	text-align: center;
+	border-radius: 25px
+  
+
+}
+
+.center{
+	text-align: center;
+}
