@@ -53,16 +53,19 @@
 				<div class="logRow">
 					Username
 					<br>
-					<input type="text" name="username" placeholder="Enter Username">
+					<!--username will be sam19
+						password will be blue-->
+
+					<input id="usernameInput" type="text" name="username" placeholder="Enter Username">
 					<br>
 					Password
 					<br>
-					<input type="password" name="psw" placeholder="Enter Password">
+					<input id="passwordInput" type="password" name="psw" placeholder="Enter Password">
 				</div>
 
 				<div>
 					<br>
-					<a class="buttonVisRed" onclick="showTab(event,'SurveyPage')">Log In</a>
+					<a class="buttonVisRed" onclick="verifyLogIn()">Log In</a>
 					<div class="ht-010"></div>
 					<a class="buttonVisRed" onclick="showTab(event,'RegisterPage')">Sign Up!</a>
 					<div class="ht-010"></div>
@@ -427,17 +430,18 @@
 		<div id="outfitPickerPage" class="tabbedPage">
 
 			<div class="outfitPictureHolder">
-				<p>Outfit Number / Total</p>
+				<!---<p>Outfit Number / Total</p>-->
 			</div>
 
-			<div class="outfitPictureHolder">
-				<img src="./pic/fit1.jpg" border="5">
+			<div id="imagePick" class="outfitPictureHolder">
+					<img src="./pic/outfits/JoJoElec-01.jpg" border="5">;
+
 			</div>
 
 			<div class="footer">
 				
-					<button class="buttonDiv" type="button" id="order">Add</button>
-					<button class="buttonDiv" type="button" id="discard">Discard</button>
+					<button class="buttonDiv" type="button" id="order" onclick="cycleImages()">Add</button>
+					<button class="buttonDiv" type="button" id="discard" onclick="cycleImages()">Discard</button>
 					<button class="buttonDiv" type="button" id="profileBtn" onclick="showTab(event, 'accountHome')">My Profile</button>
 				
 				
