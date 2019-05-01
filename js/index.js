@@ -13,6 +13,7 @@ var colors = [];
 		cPref = document.querySelector('input[name="style-comfort"]:checked').value;
 		advtrs = document.querySelector	('input[name="adventurous"]:checked').value;
 		var colorobjects = document.getElementsByClassName	("down");
+		var i = 0;
 		for (i = 0; i < colorobjects.length; i++) {
 			var temp = colorobjects[i].name;
 			colors.push(temp);
