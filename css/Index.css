@@ -5,7 +5,7 @@
 
 body {
 	font-family: verdana, helvetica, arial, sans-serif;
-	background-color: #F1F1F1;
+	background-color: teal;
 	/*background-color: black;*/
 }
 
@@ -151,7 +151,8 @@ a.down {
 .buttonVisRed {
 	margin: 5px;
     text-decoration: none; font: menu;
-    display: inline-block; padding: 2px 8px;
+    display: inline-block; 
+    padding: 2px 8px;
     background: rgb(200,0,0); color: rgb(255,255,255);
     border-style: solid; border-width: 2px;
     border-color: rgb(255,0,0) rgb(100,0,0) rgb(100,0,0) rgb(255,0,0);
@@ -171,7 +172,8 @@ a.down {
 .buttonVisStd {
 	margin: 5px;
     text-decoration: none; font: menu;
-    display: inline-block; padding: 2px 8px;
+    display: inline-block; 
+    padding: 2px 8px;
     background: ButtonFace; color: ButtonText;
     border-style: solid; border-width: 2px;
     border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
@@ -219,9 +221,7 @@ a.down {
 	padding: 10px;
 }
 
-#LogInPage{
-	background: teal;
-}
+
 
 .logRow img{
 	height: 150px;
@@ -248,7 +248,7 @@ a.down {
 }
 
 .regRow, .logRow{
-	background: #000;
+	/*background: #000;*/
 	color: #fff;
 
 }
@@ -285,7 +285,7 @@ a.down {
 }
 
 .spacer {
-	background-color: #F1F1F1;
+	background-color: teal;
 }
 
 .stdBox {

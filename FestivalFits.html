@@ -11,7 +11,11 @@
 
 		<div id="LogInPage" class="tabbedPage"> 
 			<div class="logRow">
-				<img src="./pic/Logo.JPG" alt="logoo">
+				<div class="col-lg-04 col-md-04 col-sm-00"></div>
+				<div class="col-lg-04 col-md-04 col-sm-12">
+					<img src="./pic/Logo.JPG" alt="logoo">
+				</div>
+				<div class="col-lg-04 col-md-04 col-sm-00"></div>
 				<form>
 					<div class="logRow">
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
@@ -21,32 +25,31 @@
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
 					<!--username will be sam19
 						password will be blue-->
-					</div>
-					<div class="logRow">
+					
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<input id="usernameInput" type="text" name="username" placeholder="Enter Username">					
 						</div>
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
-					</div>
-					<div class="logRow">
+					
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
 						<div class="col-lg-12 col-md-12 col-sm-12">
 						Password
 						</div>
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
-					</div>
-					<div class="logRow">
+					
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<input id="passwordInput" type="password" name="psw" placeholder="Enter Password">
 						</div>
 						<div class="col-lg-02 col-md-02 col-sm-00"></div>
-					</div>			
-			
-					<div class="col-lg-12 col-md-12 col-sm-12">
-						<div>
+					</div>
+
+					<div class="logRow">
+						<div class="col-lg-12 col-md-12 col-sm-12">
 							<a class="buttonVisRed" onclick="verifyLogIn()">Log In</a>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12">
 							<a class="buttonVisRed" onclick="showTab(event,'RegisterPage')">Sign Up!</a>
 						</div>
 					</div>
@@ -432,15 +435,20 @@
 			</div>
 
 			<div id="imagePick" class="outfitPictureHolder">
-					<img src="./pic/outfits/JoJoElec-01.jpg" border="5">;
+					<img src="./pic/outfits/JoJoElec-01.jpg" border="5">
 
 			</div>
 
 			<div class="footer">
-				
+				<div class="col-lg-12 col-md-12 col-sm-12">
 					<button class="buttonDiv" type="button" id="order" onclick="cycleImages()">Add</button>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
 					<button class="buttonDiv" type="button" id="discard" onclick="cycleImages()">Discard</button>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
 					<button class="buttonDiv" type="button" id="profileBtn" onclick="showTab(event, 'accountHome')">My Profile</button>
+				</div>
 				
 				
 			</div>
